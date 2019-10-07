@@ -75,7 +75,7 @@ After your upgrade completes, you must make sure the upgrade to Windows Server 2
 
 ### To make sure your upgrade was successful
 
-1. Open the Registry Editor, go to the HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion hive, and view the **ProductName**. You should see your edition of Windows Server 2019, for example **Windows Server 2019 Datacenter**.
+1. Open the Registry Editor, go to the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion` key, and view the **ProductName**. You should see your edition of Windows Server 2019, for example **Windows Server 2019 Datacenter**.
 
 2. Make sure all of your applications are running and that your client connections to the applications are successful.
 
